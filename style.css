@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header a.logo {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns the logo to the left */
+    width: 100%;
+}
+
+header {
+    background-color: #191919;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background: url('hero.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.shop-now {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-item {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #191919;
+    color: white;
+    margin-top: 50px;
+}
